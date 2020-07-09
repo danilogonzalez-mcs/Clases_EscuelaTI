@@ -1,0 +1,30 @@
+nav{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  border-top: 7px solid #FFCC00;
+  font-family: 'Coda Caption', sans-serif;
+  height: 1rem;
+  padding-right: 3em;
+  ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li{
+      padding: 0 1em;
+      text-align: center;
+      list-style: none;
+      a{
+        //padding: 0.5em .5em;
+        display: inline-block;
+        transition: border-botton .3s ease;
+        text-decoration: none;
+        color: black;
+        &:hover{
+          border-bottom: 5px solid #FFCC00;
+        }
+      }
+    }
+  }
+}
